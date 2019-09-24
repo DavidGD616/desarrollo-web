@@ -1,0 +1,257 @@
+body{
+    background: #fafafa;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight: normal;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0;
+}
+
+.hero{
+    height: 300px;
+    background-color:  #1b2127;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image{
+    object-fit: cover;
+}
+
+.sobremi{
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* margin: 10px; */
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.me{
+    color: black;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.hola{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.descripcion{
+    border: 1px;
+    padding-left: 150px;
+}
+
+.descripcion{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.header{
+    background-color:  #1b2127;
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ol,
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+
+.header ol li{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+.footer{
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img{
+    vertical-align:middle;
+}
+
+.disenoweb{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diseno{
+    margin: 10px;
+    width: 480px;
+    flex-shrink:0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4fbff;
+}
+
+.disenoweb h1{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.detail{
+    margin: 20px 40px;
+    margin-top: -40;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.detail h3,
+ul{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.disenoweb ul{
+    text-align: justify;
+    list-style: unset;
+}
+
+.project-tittle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.project-description{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+}
+
+.project-url{
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #056fff;
+    border-radius: 5px;
+}
+
+.contact{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter{
+    background-image: url('../img/twitter.svg');
+}
+
+.social-link.facebook{
+    background-image: url('../img/facebook.svg');
+}
+
+.social-link.instagram{
+    background-image: url('../img/instagram.svg');
+}
+
+.form-email input{
+    border-color: gray;
+    border-style: solid;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../img/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px; 
+}
+
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.form-email h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    /*border: 1px solid red;*/
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
